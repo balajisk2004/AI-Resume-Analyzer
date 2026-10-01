@@ -1,34 +1,6 @@
 # 🎯 AI Resume Analyzer & Job Match System
 
 A full-stack AI-powered web application that analyzes resumes using Natural Language Processing (NLP), calculates ATS (Applicant Tracking System) scores, and intelligently matches candidates with suitable job opportunities.
-
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Django](https://img.shields.io/badge/Django-5.0-green)
-![React](https://img.shields.io/badge/React-18-blue)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
----
-
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Screenshots](#-screenshots)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [API Endpoints](#-api-endpoints)
-- [Project Structure](#-project-structure)
-- [How It Works](#-how-it-works)
-- [Job Categories](#-job-categories)
-- [Environment Variables](#-environment-variables)
-- [Testing](#-testing)
-- [Troubleshooting](#-troubleshooting)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-
 ---
 
 ## ✨ Features
@@ -146,29 +118,6 @@ A full-stack AI-powered web application that analyzes resumes using Natural Lang
                     │     MySQL     │
                     │   Database    │
                     └───────────────┘
-```
-
----
-
-## 📸 Screenshots
-
-> Add your screenshots to the `screenshots/` folder with the file names below.
-
-### Login Page
-![Login Page](screenshots/login.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Resume Upload
-![Resume Upload](screenshots/upload.png)
-
-### Job Listings
-![Job Listings](screenshots/jobs.png)
-
-### Job Matches
-![Job Matches](screenshots/matches.png)
-
 ---
 
 ## 🚀 Installation
@@ -586,62 +535,6 @@ npm install
 - [ ] Resume version comparison
 - [ ] Company reviews integration
 - [ ] Salary insights
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
----
-
-## 🙏 Acknowledgments
-
-- [spaCy](https://spacy.io/) for NLP capabilities
-- [scikit-learn](https://scikit-learn.org/) for ML algorithms
-- [Django REST Framework](https://www.django-rest-framework.org/) for the API
-- [React Bootstrap](https://react-bootstrap.github.io/) for UI components
-- [Bootstrap 5](https://getbootstrap.com/) for styling
-
----
-
-## 📊 Project Stats
-
-![Stars](https://img.shields.io/github/stars/yourusername/resume-analyzer?style=social)
-![Forks](https://img.shields.io/github/forks/yourusername/resume-analyzer?style=social)
-![Issues](https://img.shields.io/github/issues/yourusername/resume-analyzer)
-![Pull Requests](https://img.shields.io/github/issues-pr/yourusername/resume-analyzer)
 
 ---
 
