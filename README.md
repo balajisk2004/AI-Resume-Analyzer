@@ -295,60 +295,6 @@ Frontend will be running at: **http://localhost:5173**
 }
 ```
 
----
-
-## 📁 Project Structure
-
-```text
-resume-analyzer/
-│
-├── backend/
-│   ├── api/
-│   │   ├── __init__.py
-│   │   ├── admin.py              # Django admin configuration
-│   │   ├── models.py             # Database models (Job, Resume, JobMatch)
-│   │   ├── serializers.py        # DRF serializers
-│   │   ├── views.py              # API views
-│   │   ├── urls.py               # API routes
-│   │   └── resume_parser.py      # NLP parser & ATS calculator
-│   ├── resume_analyzer/
-│   │   ├── __init__.py
-│   │   ├── settings.py           # Django settings
-│   │   ├── urls.py               # Main URL configuration
-│   │   └── wsgi.py
-│   ├── media/                    # Uploaded resumes
-│   ├── seed_jobs.py              # Job seeding script
-│   ├── create_sample_data.py     # Initial data setup
-│   ├── requirements.txt          # Python dependencies
-│   └── manage.py
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Navbar.jsx        # Navigation bar
-│   │   │   ├── Login.jsx         # Login page
-│   │   │   ├── Register.jsx      # Registration page
-│   │   │   ├── Dashboard.jsx     # Main dashboard
-│   │   │   ├── ResumeUpload.jsx  # Resume upload
-│   │   │   ├── JobList.jsx       # Job listings
-│   │   │   └── Matches.jsx       # Job matches
-│   │   ├── context/
-│   │   │   └── AuthContext.jsx   # Authentication context
-│   │   ├── App.jsx               # Main app component
-│   │   ├── main.jsx              # Entry point
-│   │   └── index.css
-│   ├── index.html
-│   ├── package.json
-│   └── vite.config.js
-│
-├── screenshots/                  # Project screenshots
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
----
-
 ## 🧠 How It Works
 
 ### 1. Resume Parsing Pipeline
